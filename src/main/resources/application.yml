@@ -10,7 +10,7 @@ spring.cloud.stream.kafka.streams.bindings.input:
   consumer:
     application-id: input1-stream-listener
 spring.cloud.stream.bindings.foobar:
-  destination: comeon
+  destination: foo
 spring.cloud.stream.kafka.streams.bindings.foobar:
   consumer:
     application-id: foobar-stream-listener
